@@ -5,28 +5,39 @@
 }
 body{
     background-color: rgb(179, 147, 209);
-    
-  background: url(leitibg.jpg); /* Ruta relativa o absoluta */
-  background-size: cover;
+     /* Ruta relativa o absoluta */
+     background-image: url(leitibg.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
 }
 
 
 h1{
     text-align: center;
-color: azure;
+  color: azure;
 }
 
 li{
     display: inline-block;
-    background: #a3a2a2;
+    background-color: white;
     padding: 10;
     font-size: 16px;
-    width: 25%;
+    width: 23%;
     margin: 0;
     text-align: center;  
 }
-
-.main-nav a:hover,
-.main-nav a.active {
-  color: #f0a;  
+a{
+  text-decoration: none;
+  color: black;
+}
+footer{
+  background-color: white;
+  padding: 10px;
+  margin: 0;
+}
+.img2{
+  float: right;
+}
+.img4{
+  float: right;
 }

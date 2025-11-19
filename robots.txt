@@ -1,0 +1,11 @@
+User-agent:Googlebot
+Allow:/
+Disallow:/*.pdf
+User-agent:bingbot
+Disallow:/
+
+#comentario 
+User-agent:*
+Allow:/
+Disallow:/admin
+Disallow:/fotos
