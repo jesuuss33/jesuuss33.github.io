@@ -11,7 +11,12 @@ body{
      background-size: cover;
 }
 
-
+li:hover{
+  background-color: blueviolet;
+}
+li>a:hover{
+  color: white;
+}
 h1{
     text-align: center;
   color: azure;
@@ -34,6 +39,10 @@ footer{
   background-color: white;
   padding: 10px;
   margin: 0;
+}
+footer>a:hover{
+background-color: black;
+color: white;
 }
 .img2{
   float: right;
