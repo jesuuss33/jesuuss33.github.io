@@ -1,11 +1,10 @@
-User-agent:Googlebot
-Allow:/
-Disallow:/*.pdf
-User-agent:bingbot
-Disallow:/
+User-agent: *
+Allow: /
 
-#comentario 
-User-agent:*
-Allow:/
-Disallow:/admin
-Disallow:/fotos
+User-agent: Googlebot
+Allow: /publico/
+Disallow: /admin/
+
+User-agent: Bingbot
+Disallow: /*?sessionid=
+Disallow: /*.ppt$
