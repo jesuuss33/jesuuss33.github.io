@@ -15,6 +15,7 @@ li:hover{
   background-color: blueviolet;
 }
 li>a:hover{
+  text-decoration: none;
   color: white;
 }
 h1{
@@ -97,7 +98,7 @@ color: white;
 
 .category a {
   text-decoration: none;
-  color: #3498db;
+  color:black;
   font-weight: 500;
 }
 
