@@ -1,42 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+<urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
+http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--
+ created with Free Online Sitemap Generator www.xml-sitemaps.com 
+-->
 <url>
-  <loc>https://jesuuss33.github.io/</loc>
-  <lastmod>2025-12-07T21:04:25+00:00</lastmod>
-  <priority>1.00</priority>
+<loc>https://jesuuss33.github.io/</loc>
+<lastmod>2026-02-02T08:52:41+00:00</lastmod>
+<priority>1.00</priority>
 </url>
 <url>
-  <loc>https://jesuuss33.github.io/indexbio.html</loc>
-  <lastmod>2025-12-07T21:04:25+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://jesuuss33.github.io/indexbio.html</loc>
+<lastmod>2026-02-02T08:52:41+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://jesuuss33.github.io/indexsonido.html</loc>
-  <lastmod>2025-12-07T21:04:25+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://jesuuss33.github.io/indexsonido.html</loc>
+<lastmod>2026-02-02T08:52:41+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://jesuuss33.github.io/indexcutemobb.html</loc>
-  <lastmod>2025-12-07T21:04:25+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://jesuuss33.github.io/indexcutemobb.html</loc>
+<lastmod>2026-02-02T08:52:41+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://jesuuss33.github.io/indexcsolo.html</loc>
-  <lastmod>2025-12-07T21:04:25+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://jesuuss33.github.io/indexcsolo.html</loc>
+<lastmod>2026-02-02T08:52:41+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://jesuuss33.github.io/linksinteres.html</loc>
-  <lastmod>2025-12-07T21:04:25+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://jesuuss33.github.io/trap%20catalan.html</loc>
+<lastmod>2026-02-02T08:52:41+00:00</lastmod>
+<priority>0.80</priority>
 </url>
-
-
+<url>
+<loc>https://jesuuss33.github.io/linksinteres.html</loc>
+<lastmod>2026-02-02T08:52:41+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://jesuuss33.github.io/index.html</loc>
+<lastmod>2026-02-02T08:52:41+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://jesuuss33.github.io/trap.html</loc>
+<lastmod>2026-02-02T08:52:41+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://jesuuss33.github.io/AfroTrap.html</loc>
+<lastmod>2026-02-02T08:52:41+00:00</lastmod>
+<priority>0.51</priority>
+</url>
 </urlset>
