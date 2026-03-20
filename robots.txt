@@ -19,4 +19,4 @@ Disallow: /*?sessionid=
 Disallow: /*.ppt$
 
 # Sitemap 
-Sitemap: https://www.tusitio.com/sitemap.xml
+Sitemap: https://jesuuss33.github.io/sitemap.xml
