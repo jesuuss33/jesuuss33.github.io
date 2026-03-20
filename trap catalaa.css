@@ -2,17 +2,26 @@ body{
     background-image:url(trap\ catala.png)
 }
 a:nth-of-type(2){
-    font-size: 100px;
+    font-size: 30px;
 }
 a:nth-of-type(3){
-    font-size: 40px;
+    font-size: 30px;
 }
 a:nth-of-type(1){
-font-size: 40px;
+font-size: 30px;
 }
+a:nth-of-type(5){
+font-size: 30px;
+}
+a:nth-of-type(4){
+font-size: 30px;
+}
+
 p{
-    color: red;
+    color: rgb(255, 255, 255);
     font-size: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 2%;
 }
 h1{
     text-align: center;
