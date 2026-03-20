@@ -1,10 +1,22 @@
+# bots
 User-agent: *
+Disallow: /admin/
+Disallow: /privado/
+Disallow: /*?sessionid=
 Allow: /
 
+# Google
 User-agent: Googlebot
 Allow: /publico/
 Disallow: /admin/
+Disallow: /privado/
 
+# Bing
 User-agent: Bingbot
+Disallow: /admin/
+Disallow: /privado/
 Disallow: /*?sessionid=
 Disallow: /*.ppt$
+
+# Sitemap 
+Sitemap: https://www.tusitio.com/sitemap.xml
