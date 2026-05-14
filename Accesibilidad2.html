@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accesibilidad 2</title>
+
+    <style>
+        body>a{
+            position: absolute;
+            left: 1000px;
+        }
+        body>a:focus{
+            position: static;
+        }
+        .rojo{
+            color: red;
+        }
+        .oculto{
+            font-size: 0;
+        }
+        body>div{
+            position: absolute;
+            left: 200px;
+            top: 100px;
+        }
+        div:nth-child(1){
+            width: 100px;
+            height: 30px;
+            background-color: red;
+
+        }
+              div:nth-child(2){
+            width: 70px;
+            height: 30px;
+            background-color: blue;
+
+        }
+              div:nth-child(3){
+            width: 60px;
+            height: 30px;
+            background-color: green;
+
+        }
+              div:nth-child(4){
+            width: 25px;
+            height: 30px;
+            background-color: purple;
+
+        }
+    </style>
+
+</head>
+<body>
+    <a href="#contenido" tabindex="1">Ir al contenido</a>
+<header>
+    <nav>
+        <ol>
+            <li>opcion1</li>
+            <li>opcion2</li>
+            <li>opcion3</li>
+            <li>opcion4</li>
+            <li>opcion5</li>
+        </ol>
+    </nav>
+</header>
+
+<main id="contenido">
+    <p tabindex="0">ENLACE CON JAVASCRIPT</p>
+    <a href="#" tabindex="-1">NO QUEREMOS QUE ESTÉ EN EL ORDEN DE TABULACION</a>
+<p aria-hidden="true"> Los productos en oferta están marcados en rojo</p>
+<p>Los productos en oferta estan marcados con asterisco</p>
+<p lang="en">To be or not not be</p>
+    <ol>
+        <li>producto 1</li>
+        <li>producto 2</li>
+        <li>producto 3</li>
+        <li class="rojo">producto 4 <span class="oculto">*</span></li>
+        <li>producto 5</li>
+        <li>producto 6</li>
+
+    </ol>
+    <figure>
+        <div><a href="www.elpais.com" tabindex="2">EL PAIS</a></div>
+        <form>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe solo tu nombre de pila">
+            <label for="aficiones">Aficiones</label>
+            <select name="aficiones" id="aficiones">
+                <optgroup label="Deportes">¡
+                <option value="1">Futbol</option>
+                <option value="2">Baloncesto</option>
+                <option value="3">Tenis</option>
+                </optgroup>
+                <optgroup label="Musica">
+                <option value="4">Musica clasica</option>
+                <option value="5">Jazz</option>
+                <option value="6">Reggaeton</option>
+                <option value="1">Soul</option>
+                </optgroup>
+
+
+
+            </select>
+        </form>
+
+
+
+    <p>Resultados examnes de DAM</p>
+    <p>Aprobados en rojo,suspenso en amarillo,notables en azul, en verde los notables</p>
+    <article role="img" aria-labelledby="etiquetaImagen">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <p id="etiquetaImagen">Grafico con los resultado de DAM: 25% aprobado,20% de suspensos 
+    ,15 % de notables, 40 % de sobresalientes </p>
+    <p>Enlace a ganador en la categoria</p>
+
+
+<p id="enlace1"><a href="#actor" aria-labelledby="enlace1 ">Actor</a></p>
+<p id="enlace3"><a href="#director" aria-labelledby="enlace1 enlace3">Director</a></p>
+<a href="#actor">Actor</a>
+<p id="enlace3"><a href="#director" aria-labelledby="enlace1 enlace3">Director</a></p>
+<p id="enlace4"><a href="#musica" aria-labelledby="enlace1 enlace4">Musica</a></p>
+</article>
+
+
+<section>
+    <p>Agua</p>
+    <p>Pan</p>
+    <p>Leche</p>
+    <p>Azucar</p>
+
+    
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <img src="imagenes/emboar.png" alt="">
+<figcaption>Einstein</figcaption>
+    </figure>
+    <p>CDMFP en la mejor escuela del mundo</p>
+<a href="https://www.cdmfp.es" aria-label="Enlace a la web de cdmfp">
+<img src="logotipodcmfp.jpg">Ir a la web</a>
+
+
+
+</main>
+<div><a href="www.elpais.com" tabindex="3">EL PAIS</a></div> -->
+</body>
+</html>
